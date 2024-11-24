@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PowerWear - Vista a energia</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta property="og:title" content="PowerWear - Vista a energia">
+<meta property="og:description" content="Descubra nossa coleção de roupas fitness incríveis!">
+<meta property="og:image" content="./img/logo.png">
+<meta property="og:url" content="https://www.powerwear.com.br">
+<meta name="twitter:card" content="summary_large_image">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -21,7 +27,8 @@
         <ul>
             <li><a href="#feminino">Feminino</a></li>
             <li><a href="#masculino">Masculino</a></li>
-            <li><a href="#lancamentos">Lançamentos</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#cadastro">Cdastre-se</a></li>
         </ul>
     </nav>
 
@@ -79,7 +86,7 @@
                 </div>
             </div>
             <div id="masculino">
-                <h2>Coleção Masculina</h2>
+                <h3>Coleção Masculina</h3>
                 <div class="product-container">
                     <div class="product-card">
                         <div class="product-image">
@@ -128,63 +135,136 @@
                     </div>
                 </div>
             </div>
-            <div id="lancamentos">
-                <h2>Últimos lançamentos</h2>
-                <div class="product-container">
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="./img/lanc-1.jpg" alt="Conjunto Power">
+        </div>
+    </section>
+    <section>
+        <div class="content">
+            <section id="galeria">
+                <div class="content">
+                    <h1>POWER GALLERY</h1>
+                    <h2>Confira os lançamentos!</h2>
+                    <div class="gallery-container">
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-1.webp" alt="Short Run">
+                            </div>
+                            <div class="product-info">
+                                <h2>Top Run</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 79,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h2>Conjunto Power - Short + Top</h2>
-                            <div class="price-info">
-                                <span class="price">R$ 69,90</span>
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-2.jpg" alt="Short Run">
                             </div>
-                            <div class="installments">
-                                3x de R$ 23,30 no cartão s/ juros
+                            <div class="product-info">
+                                <h2>Short Run</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 89,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
                             </div>
-                            <button class="buy-button">Comprar</button>
                         </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="./img/lanc-2.jpg" alt="Top Power">
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-3.webp" alt="Conjunto Gym">
+                            </div>
+                            <div class="product-info">
+                                <h2>Conjunto Gym</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 109,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h2>Top Power</h2>
-                            <div class="price-info">
-                                <span class="price">R$ 39,90</span>
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-4.webp" alt="Macaquinho Style">
                             </div>
-                            <div class="installments">
-                                3x de R$ 13,30 no cartão s/ juros
+                            <div class="product-info">
+                                <h2>Macaquinho Style</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 59,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
                             </div>
-                            <button class="buy-button">Comprar</button>
                         </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="./img/lanc-3.webp" alt="Conjunto Legging">
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-5.webp" alt="Bermuda Run">
+                            </div>
+                            <div class="product-info">
+                                <h2>Bermuda Run</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 69,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h2>Legging Slim</h2>
-                            <div class="price-info">
-                                <span class="price">R$ 39,90</span>
+                        <div class="gallery-card">
+                            <div class="product-image">
+                                <img src="./img/lanc-6.webp" alt="Camisa de compressão Gym">
                             </div>
-                            <div class="installments">
-                                3x de R$ 13,30 no cartão s/ juros
+                            <div class="product-info">
+                                <h2>Camisa de compressão Gym</h2>
+                                <div class="price-info">
+                                    <span class="price">R$ 79,90</span>
+                                </div>
+                                <button class="buy-button">Pré-venda</button>
                             </div>
-                            <button class="buy-button">Comprar</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
-
+    <section id="cadastro">
+        <h2>Cadastre-se e receba nossos lançamentos e promoções!</h2>
+        <div class="formulario-container">
+            <form>
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+                    
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" required>
+                    
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                    
+                </fieldset>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <figure>
+                <img src="./img/img-form.png" alt="Venha ser Power Wear!">
+                <figcaption>Venha ser Power Wear! ⚡</figcaption>
+            </figure>
+        </div>
+    </section>
+    
     <footer>
         <p>&copy; 2024 - PowerWear</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
