@@ -82,7 +82,7 @@ section {
     margin: 20px 0;
 }
 
-#feminino h3 {
+h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     display: inline-block;
@@ -172,6 +172,158 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+/* Estilo para a Galeria */
+#galeria {
+    padding: 20px;
+    background-color: #cdcedf;
+}
+
+.gallery-container {
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery-card {
+    width: 175px;
+    background-color: #bbbcda;
+    border: 1px solid #a5a6c2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Estilo geral da seção */
+#cadastro {
+    display: block;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+#cadastro h2 {
+    color: #041772;
+    margin-bottom: 20px; 
+    grid-column: 1 / -1;
+    text-align: center; 
+}
+
+
+/* Grade para formulário e imagem */
+.formulario-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+fieldset {
+    border: 1px solid #041772;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+legend {
+    color: #041772;
+    font-weight: bold;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #041772;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #032e5c;
+}
+
+/* Estilo para a imagem */
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .formulario-container {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        order: 1;
+    }
+
+    figure {
+        order: 2;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .gallery-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 @media (max-width: 768px) {
     nav ul {
