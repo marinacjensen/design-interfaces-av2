@@ -24,39 +24,44 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Espaçamento entre a imagem e o texto */
+    gap: 10px;
+    height: 150px;
 }
 
 /* Menu de Navegação */
-nav {
+.menu {
     background-color: #518bed;
+    width: 100%; 
 }
 
-nav ul {
+.menu ul {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
-    overflow-x: auto; /* Permite rolagem horizontal em telas muito pequenas */
+    overflow-x: auto; 
 }
 
-nav ul li {
+.menu ul li {
     margin: 0 10px;
-    white-space: nowrap; /* Evita quebra de linha nos itens do menu */
+    white-space: nowrap;
 }
 
-nav ul li a {
+.menu ul li a {
     color: white;
     text-decoration: none;
+    text-align: center;
     font-weight: 600;
     padding: 10px 15px;
-    display: block;
+    display: inline-block;
 }
 
-nav ul li a:hover {
+.menu ul li a:hover {
     text-decoration: underline;
 }
+
 
 section {
     flex: 0.2;
@@ -200,6 +205,7 @@ footer {
     text-align: center;
 }
 
+
 /* Estilo geral da seção */
 #cadastro {
     display: block;
@@ -219,7 +225,7 @@ footer {
 }
 
 
-/* Grade para formulário e imagem */
+/* formulário e imagem */
 .formulario-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -271,7 +277,7 @@ button:hover {
     background-color: #032e5c;
 }
 
-/* Estilo para a imagem */
+/* Estilo imagem */
 figure {
     display: flex;
     flex-direction: column;
