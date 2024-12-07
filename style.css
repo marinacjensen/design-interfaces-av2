@@ -195,7 +195,7 @@ footer {
 
 
 .gallery-card {
-    width: 175px;
+    min-width: 175px;
     background-color: #bbbcda;
     border: 1px solid #a5a6c2;
     border-radius: 8px;
