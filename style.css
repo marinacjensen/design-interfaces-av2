@@ -112,7 +112,6 @@ footer {
 
 .product-card {
     width: 230px;
-    min-width: 150px;
     background-color: #bbbcda;
     border: 1px solid #a5a6c2;
     border-radius: 8px;
@@ -185,14 +184,6 @@ footer {
     background-color: #cdcedf;
 }
 
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-    gap: 20px;
-    justify-content: center;
-    min-width: 320px; 
-}
-
 
 .gallery-card {
     width: 175px;
@@ -203,12 +194,6 @@ footer {
     overflow: hidden;
     text-align: center;
 }
-
-.product-container, .gallery-container {
-    min-width: 300px;
-    width: 100%;
-}
-
 
 
 /* Estilo geral da seção */
